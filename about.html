@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<title>Superstar Technology College</title>
+<link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+<script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="Assets/js/js_z.js"></script>
+<link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+<link rel="stylesheet" type="text/css" href="Assets/css/responsive.css">
+</head>
+
+<body>
+<!--头部-->
+<div class="header">
+    <div class="head clearfix">
+        <div class="logo">
+            <img src="Assets/images/logo.png" alt="logo"/>
+        </div>
+        <div class="nav_m">
+          <div class="n_icon">Navigation</div>
+          <ul class="nav clearfix">
+              <li class="now"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="service.html">Course</a></li>
+              <li><a href="customer.html">Survey</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--头部-->
+
+<div class="wrap">
+	<div class="about">
+    	<div class="tabBox_t">
+            <div class="tabBox">
+              <div class="tabCont" style="display:block;">
+                <!--企业简介-->
+                <div class="s_ctn">
+                  <br></br><br></br><br></br>
+                	<h2>The Superstar Technology College (STC) </h2> <h2>is unlike any other university in Australia. </h2><h2>Founded in 1946, </h2><h2>in a spirit of post-war optimism, </h2><h2>our role was to help realise Australia's potential as the world recovered from a global crisis.</h2>
+                  <br></br> <img src="Assets/images/xysh2.jpg" alt=""/>
+                 <br></br> <h2>That vision, </h2><h2>to support the development of national unity and identity,</h2><h2> improve our understanding of ourselves and our neighbours, </h2><h2>and provide our nation with research capacity amongst the best in the world, </h2><h2>and education in areas vital for our future, </h2><h2>has been our mission ever since.</h2>
+                 <br></br><img src="Assets/images/xysh5].jpg" alt=""/>  
+                 <br></br> <h2>It can be difficult work, </h2><h2>but it's work we proudly do-because connecting talented people with diverse perspectives,</h2><h2> equipping and encouraging them to address the most complex of tomorrow's problems, </h2><h2>and ensuring Australia's future is not just our approach</h2><h2>-it's also our national role and international responsibility as Superstar Technology College,</h2><h2> and it's a responsibility from which we'll never waver.</h2></p>
+                    <br/>
+                    <img src="Assets/images/xysh1.jpg" alt=""/>
+                    <br/>
+                    <br/>
+                    <h2>Everything has a history. </h2><h2>From a national constitution to modern consumer culture, </h2><h2>from the rise of empires to environmental crises, </h2><h2>from the human species to your family,</h2><h2> history teaches you about the forces that have made the world in which you live. </h2><h2>It helps you to understand the present by understanding its past.</h2>
+                      <br></br> <img src="Assets/images/xysh8.jpg" alt=""/>
+                      <br></br>
+                     <h2> The STC is a national leader in History</h2> <h2>and offers a wide range of courses </h2><h2>covering Australia, America, Asia and Europe. </h2><h2>Courses trace themes such as empire, terrorism, </h2><h2>revolution, war, gender, race, technology and the environment. </h2><h2>Some focus on philosophies that underlie historical analysis </h2><h2>or techniques of historical research.</h2><h2> History is a core discipline in the humanities and social sciences.</h2><h2> It gives students knowledge and skills </h2><h2>that are valued in any professional context.</h2><h2> Our students successfully pursue careers in </h2><h2>journalism, management, politics, policy, museums, diplomacy, teaching, academia and many other fields.</h2>
+               
+                </div>
+                <br></br>
+                <h1 align="center">School Activities</h1>
+                <title>校园生活</title>
+                <div class="container" align="center">
+                <style>
+                  /* 图片轮播容器 */
+                  #slideshow {
+                    position: relative;
+                    width: 640px;
+                    height: 360px;
+                    overflow: hidden;
+                  }
+                  
+                  /* 图片容器 */
+                  #slideshow img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    transition: opacity 1s ease-in-out;
+                  }
+                  
+                  /* 显示当前图片 */
+                  #slideshow img.showing {
+                    opacity: 1;
+                  }
+                </style>
+              </head>
+              <body>
+                <div id="slideshow">
+                  <img src="Assets/images/life1.jpg" class="showing">
+                  <img src="Assets/images/life2.jpg">
+                  <img src="Assets/images/life3.jpg">
+                  <img src="Assets/images/life4.jpg">
+                  <img src="Assets/images/life5.jpg">
+                  <img src="Assets/images/life6.jpg">
+                </div>
+                
+                <script>
+                  const images = document.querySelectorAll('#slideshow img');
+                  const intervalTime = 2000;
+                  let currentImageIndex = 0;
+                  
+                  function switchImage() {
+                    images[currentImageIndex].classList.remove('showing');
+                    currentImageIndex = (currentImageIndex + 1) % images.length;
+                    images[currentImageIndex].classList.add('showing');
+                  }
+                  
+                  setInterval(switchImage, intervalTime);
+                </script>
+              </body>
+              </div>
+                
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="bg_c">
+	<div class="wrap">
+    	<ul class="foot clearfix">
+            <li >
+            	<b>contact us</b>
+              <p class="f_a1">School Address：Chancelry Building [10], Canberra Australian Capital Territory 0200</p>
+              <p class="f_a2">Phone Number: +61 2 61255111(Mon-Fri: 8am-6pm)</p>
+              <p class="f_a3">E-mail: 2240935903@163.com</p>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
